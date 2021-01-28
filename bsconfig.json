@@ -1,0 +1,39 @@
+{
+  "name": "rohea-bs-emotion",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "examples",
+      "subdirs": true,
+      "type": "dev"
+    },
+    {
+      "dir": "__tests__",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "pinned-dependencies": [
+    "@rohea/re-polished"
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "@ahrefs/bs-emotion",
+    "@rohea/re-polished"
+  ],
+  "ppx-flags": ["@ahrefs/bs-emotion-ppx/ppx"],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest"
+  ],
+  "suffix": ".bs.js",
+  "refmt": 3
+}
